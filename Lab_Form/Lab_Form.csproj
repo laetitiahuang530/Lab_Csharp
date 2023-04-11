@@ -76,6 +76,24 @@
     <Compile Include="Frm_24.Designer.cs">
       <DependentUpon>Frm_24.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_M08_Method.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_M08_Method.Designer.cs">
+      <DependentUpon>Frm_M08_Method.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_26.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_26.Designer.cs">
+      <DependentUpon>Frm_26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_27.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_27.Designer.cs">
+      <DependentUpon>Frm_27.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_M03_LoanForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,11 +130,11 @@
     <Compile Include="Frm_M06_StudentStructForm.Designer.cs">
       <DependentUpon>Frm_M06_StudentStructForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_M07_MyCalc.cs">
+    <Compile Include="Frm_M09_MyCalc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_M07_MyCalc.Designer.cs">
-      <DependentUpon>Frm_M07_MyCalc.cs</DependentUpon>
+    <Compile Include="Frm_M09_MyCalc.Designer.cs">
+      <DependentUpon>Frm_M09_MyCalc.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_M07_StudentsGrade.cs">
       <SubType>Form</SubType>
@@ -149,6 +167,15 @@
     <EmbeddedResource Include="Frm_24.resx">
       <DependentUpon>Frm_24.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_M08_Method.resx">
+      <DependentUpon>Frm_M08_Method.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_26.resx">
+      <DependentUpon>Frm_26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_27.resx">
+      <DependentUpon>Frm_27.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_M02_HelloForm.resx">
       <DependentUpon>Frm_M02_HelloForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -167,8 +194,8 @@
     <EmbeddedResource Include="Frm_M06_StudentStructForm.resx">
       <DependentUpon>Frm_M06_StudentStructForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_M07_MyCalc.resx">
-      <DependentUpon>Frm_M07_MyCalc.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_M09_MyCalc.resx">
+      <DependentUpon>Frm_M09_MyCalc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_M07_StudentsGrade.resx">
       <DependentUpon>Frm_M07_StudentsGrade.cs</DependentUpon>

@@ -1,6 +1,6 @@
 ﻿namespace Lab_Form
 {
-    partial class Frm_M07_MyCalc
+    partial class Frm_M09_MyCalc
     {
         /// <summary>
         /// Required designer variable.

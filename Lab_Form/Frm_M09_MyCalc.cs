@@ -11,9 +11,9 @@ using System.Xml.Linq;
 
 namespace Lab_Form
 {
-    public partial class Frm_M07_MyCalc : Form
+    public partial class Frm_M09_MyCalc : Form
     {
-        public Frm_M07_MyCalc()
+        public Frm_M09_MyCalc()
         {
             InitializeComponent();
         }

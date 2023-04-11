@@ -60,5 +60,16 @@ namespace Lab_Form
         {
             label1.Text = "級數 : " + CalcScore(Int32.Parse(textBox1.Text));
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            foreach (Control control in this.Controls)
+            {
+                control.BackColor = Color.Pink;
+                control.ForeColor = Color.Black;
+                control.Left -= 5;
+                control.Top -= 5;
+            }
+        }
     }
 }

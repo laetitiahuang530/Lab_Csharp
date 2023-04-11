@@ -18,7 +18,24 @@ namespace Lab_Form
         {
             InitializeComponent();
         }
-        ArrayList IsPro = new ArrayList();
+        List<Product> IsPro = new List<Product>();
+        void ShowProductList()
+        {
+            decimal totalPrice = 0;
+            label1.Text = "產品\n";
+            //for (int i = 0; i < IsPro.Count; i++)
+            //{
+            //    label3.Text += $"名稱:{((Product)IsPro[i]).Name}" +
+            //        $", 單價:{((Product)IsPro[i])}.Price\n";
+            //    totalPrice += ((Product)IsPro[i]).Price;
+            //}
+            foreach(Product pro in IsPro)
+            {
+                label3.Text += $"名稱:{pro.Name}" +
+                    $", 單價:{pro.Price}\n";
+                totalPrice += pro.Price;
+            }
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             Product pro;
@@ -57,6 +74,15 @@ namespace Lab_Form
             {
                 label3.Text += $"名稱: {((Product)IsPro[i]).Name},單價: {((Product)IsPro[i]).Price}\n";
             }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Product product = new Product();
+            product.Name = "Laetitia";
+            product.Price = 34098;
+            IsPro.Add(product);
+            ShowProductList();
         }
     }
 }
