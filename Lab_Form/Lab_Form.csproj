@@ -142,6 +142,24 @@
     <Compile Include="Frm_M07_StudentsGrade.Designer.cs">
       <DependentUpon>Frm_M07_StudentsGrade.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_M10_XOGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_M10_XOGame.Designer.cs">
+      <DependentUpon>Frm_M10_XOGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_M11_ScreenSaver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_M11_ScreenSaver.Designer.cs">
+      <DependentUpon>Frm_M11_ScreenSaver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_M12_Notepad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_M12_Notepad.Designer.cs">
+      <DependentUpon>Frm_M12_Notepad.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_M26_Array.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -199,6 +217,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_M07_StudentsGrade.resx">
       <DependentUpon>Frm_M07_StudentsGrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_M10_XOGame.resx">
+      <DependentUpon>Frm_M10_XOGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_M11_ScreenSaver.resx">
+      <DependentUpon>Frm_M11_ScreenSaver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_M12_Notepad.resx">
+      <DependentUpon>Frm_M12_Notepad.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_M26_Array.resx">
       <DependentUpon>Frm_M26_Array.cs</DependentUpon>

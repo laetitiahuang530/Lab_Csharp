@@ -68,32 +68,65 @@ namespace Lab_Form
 
         private void btnStudentsGradeList_Click(object sender, EventArgs e)
         {
-            MyClass mc = new MyClass();
-            mc.Method03();
-            mc.Method08();
+            splitContainer2.Panel2.Controls.Clear();
+            Frm_M07_StudentsGrade frm_studentGradeList = new Frm_M07_StudentsGrade();
+            frm_studentGradeList.TopLevel = false;
+            frm_studentGradeList.Dock = DockStyle.None;
+            splitContainer2.Panel2.Controls.Add(frm_studentGradeList);
+            frm_studentGradeList.Show();
 
         }
 
-        private void btnNewMember_Click(object sender, EventArgs e)
+        private void btnMethod_Click(object sender, EventArgs e)
         {
-            Member mem1 = new Member();
-            mem1.Name = "John";
-            mem1.Age = 30;
-
-            //string mem1Name = mem1.Name;
-            MessageBox.Show(mem1.Name + "," + mem1.Age);
-
-            Member mem2 = new Member
-            {
-                Name = "Wick",
-                Age = 32
-            };
-            MessageBox.Show(mem2.Name + "," + mem2.Age);
+            splitContainer2.Panel2.Controls.Clear();
+            Frm_M08_Method frm_method = new Frm_M08_Method();
+            frm_method.TopLevel = false;
+            frm_method.Dock = DockStyle.None;
+            splitContainer2.Panel2.Controls.Add(frm_method);
+            frm_method.Show();
         }
 
-        private void Frm_M01_Load(object sender, EventArgs e)
+        private void btnMyCalc_Click(object sender, EventArgs e)
         {
-            //sform1 = this;//->2. 
+            splitContainer2.Panel2.Controls.Clear();
+            Frm_M09_MyCalc frm_method = new Frm_M09_MyCalc();
+            frm_method.TopLevel = false;
+            frm_method.Dock = DockStyle.None;
+            splitContainer2.Panel2.Controls.Add(frm_method);
+            frm_method.Show();
+        }
+
+        private void btnForDoWhile_Click(object sender, EventArgs e)
+        {
+            splitContainer2.Panel2.Controls.Clear();
+            Frm_M08_Method frm_ForDoWhile = new Frm_M08_Method();
+            frm_ForDoWhile.TopLevel = false;
+            frm_ForDoWhile.Dock = DockStyle.None;
+            splitContainer2.Panel2.Controls.Add(frm_ForDoWhile);
+            frm_ForDoWhile.Show();
+        }
+
+        private void btnXOGame_Click(object sender, EventArgs e)
+        {
+            splitContainer2.Panel2.Controls.Clear();
+            Frm_M10_XOGame frm_XOGame = new Frm_M10_XOGame();
+            frm_XOGame.TopLevel = false;
+            frm_XOGame.Dock = DockStyle.None;
+            splitContainer2.Panel2.Controls.Add(frm_XOGame);
+            frm_XOGame.Show();
+        }
+
+        private void btnScreenSaver_Click(object sender, EventArgs e)
+        {
+            Frm_M11_ScreenSaver frm_ScreenSaver = new Frm_M11_ScreenSaver();
+            frm_ScreenSaver.Show();
+        }
+
+        private void btnNotepad_Click(object sender, EventArgs e)
+        {
+            Frm_M12_Notepad frm_Notepad = new Frm_M12_Notepad();
+            frm_Notepad.Show();
         }
     }
 }

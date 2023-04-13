@@ -124,9 +124,10 @@ namespace Lab_Form
             {
                 for (int j=0; j < arr[i].Length; j++)
                 {
-                    //result += " " + arr[i, j] + "\n";
+                    result += " " + arr[i][j] + "\n";
                 }
             }
+            MessageBox.Show(result);
         }
     }
 }

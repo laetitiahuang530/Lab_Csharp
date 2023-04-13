@@ -32,14 +32,18 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.labelCSharp = new System.Windows.Forms.Label();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-            this.btnNewMember = new System.Windows.Forms.Button();
+            this.btnScreenSaver = new System.Windows.Forms.Button();
+            this.btnXOGame = new System.Windows.Forms.Button();
+            this.btnForDoWhile = new System.Windows.Forms.Button();
+            this.btnMyCalc = new System.Windows.Forms.Button();
+            this.btnMethod = new System.Windows.Forms.Button();
             this.btnStudentsGradeList = new System.Windows.Forms.Button();
             this.btnStudentsGrade = new System.Windows.Forms.Button();
             this.btnStudentStructForm = new System.Windows.Forms.Button();
             this.btnLoan = new System.Windows.Forms.Button();
             this.btnHello = new System.Windows.Forms.Button();
             this.btnPOS = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnNotepad = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -92,8 +96,12 @@
             // 
             this.splitContainer2.Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitContainer2.Panel1.BackgroundImage")));
             this.splitContainer2.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.splitContainer2.Panel1.Controls.Add(this.button1);
-            this.splitContainer2.Panel1.Controls.Add(this.btnNewMember);
+            this.splitContainer2.Panel1.Controls.Add(this.btnNotepad);
+            this.splitContainer2.Panel1.Controls.Add(this.btnScreenSaver);
+            this.splitContainer2.Panel1.Controls.Add(this.btnXOGame);
+            this.splitContainer2.Panel1.Controls.Add(this.btnForDoWhile);
+            this.splitContainer2.Panel1.Controls.Add(this.btnMyCalc);
+            this.splitContainer2.Panel1.Controls.Add(this.btnMethod);
             this.splitContainer2.Panel1.Controls.Add(this.btnStudentsGradeList);
             this.splitContainer2.Panel1.Controls.Add(this.btnStudentsGrade);
             this.splitContainer2.Panel1.Controls.Add(this.btnStudentStructForm);
@@ -111,17 +119,65 @@
             this.splitContainer2.SplitterDistance = 235;
             this.splitContainer2.TabIndex = 3;
             // 
-            // btnNewMember
+            // btnScreenSaver
             // 
-            this.btnNewMember.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnScreenSaver.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnNewMember.Location = new System.Drawing.Point(12, 235);
-            this.btnNewMember.Name = "btnNewMember";
-            this.btnNewMember.Size = new System.Drawing.Size(199, 31);
-            this.btnNewMember.TabIndex = 7;
-            this.btnNewMember.Text = "0711_Method";
-            this.btnNewMember.UseVisualStyleBackColor = true;
-            this.btnNewMember.Click += new System.EventHandler(this.btnNewMember_Click);
+            this.btnScreenSaver.Location = new System.Drawing.Point(12, 383);
+            this.btnScreenSaver.Name = "btnScreenSaver";
+            this.btnScreenSaver.Size = new System.Drawing.Size(199, 31);
+            this.btnScreenSaver.TabIndex = 11;
+            this.btnScreenSaver.Text = "Screen Saver";
+            this.btnScreenSaver.UseVisualStyleBackColor = true;
+            this.btnScreenSaver.Click += new System.EventHandler(this.btnScreenSaver_Click);
+            // 
+            // btnXOGame
+            // 
+            this.btnXOGame.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnXOGame.Location = new System.Drawing.Point(12, 346);
+            this.btnXOGame.Name = "btnXOGame";
+            this.btnXOGame.Size = new System.Drawing.Size(199, 31);
+            this.btnXOGame.TabIndex = 10;
+            this.btnXOGame.Text = "0716_XOGame";
+            this.btnXOGame.UseVisualStyleBackColor = true;
+            this.btnXOGame.Click += new System.EventHandler(this.btnXOGame_Click);
+            // 
+            // btnForDoWhile
+            // 
+            this.btnForDoWhile.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnForDoWhile.Location = new System.Drawing.Point(12, 309);
+            this.btnForDoWhile.Name = "btnForDoWhile";
+            this.btnForDoWhile.Size = new System.Drawing.Size(199, 31);
+            this.btnForDoWhile.TabIndex = 9;
+            this.btnForDoWhile.Text = "0712_ForDoWhile";
+            this.btnForDoWhile.UseVisualStyleBackColor = true;
+            this.btnForDoWhile.Click += new System.EventHandler(this.btnForDoWhile_Click);
+            // 
+            // btnMyCalc
+            // 
+            this.btnMyCalc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMyCalc.Location = new System.Drawing.Point(12, 272);
+            this.btnMyCalc.Name = "btnMyCalc";
+            this.btnMyCalc.Size = new System.Drawing.Size(199, 31);
+            this.btnMyCalc.TabIndex = 8;
+            this.btnMyCalc.Text = "0711_MyCalc";
+            this.btnMyCalc.UseVisualStyleBackColor = true;
+            this.btnMyCalc.Click += new System.EventHandler(this.btnMyCalc_Click);
+            // 
+            // btnMethod
+            // 
+            this.btnMethod.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMethod.Location = new System.Drawing.Point(12, 235);
+            this.btnMethod.Name = "btnMethod";
+            this.btnMethod.Size = new System.Drawing.Size(199, 31);
+            this.btnMethod.TabIndex = 7;
+            this.btnMethod.Text = "0711_Method";
+            this.btnMethod.UseVisualStyleBackColor = true;
+            this.btnMethod.Click += new System.EventHandler(this.btnMethod_Click);
             // 
             // btnStudentsGradeList
             // 
@@ -195,16 +251,17 @@
             this.btnPOS.UseVisualStyleBackColor = true;
             this.btnPOS.Click += new System.EventHandler(this.btnPOS_Click);
             // 
-            // button1
+            // btnNotepad
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnNotepad.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(12, 272);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(199, 31);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "0711_Method";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnNotepad.Location = new System.Drawing.Point(12, 420);
+            this.btnNotepad.Name = "btnNotepad";
+            this.btnNotepad.Size = new System.Drawing.Size(199, 31);
+            this.btnNotepad.TabIndex = 12;
+            this.btnNotepad.Text = "Notepad";
+            this.btnNotepad.UseVisualStyleBackColor = true;
+            this.btnNotepad.Click += new System.EventHandler(this.btnNotepad_Click);
             // 
             // Frm_M01
             // 
@@ -215,7 +272,6 @@
             this.Controls.Add(this.splitContainer1);
             this.Name = "Frm_M01";
             this.Text = "HomePage";
-            this.Load += new System.EventHandler(this.Frm_M01_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);
@@ -239,7 +295,11 @@
         private System.Windows.Forms.Button btnStudentStructForm;
         private System.Windows.Forms.Button btnStudentsGrade;
         private System.Windows.Forms.Button btnStudentsGradeList;
-        private System.Windows.Forms.Button btnNewMember;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnMethod;
+        private System.Windows.Forms.Button btnMyCalc;
+        private System.Windows.Forms.Button btnForDoWhile;
+        private System.Windows.Forms.Button btnXOGame;
+        private System.Windows.Forms.Button btnScreenSaver;
+        private System.Windows.Forms.Button btnNotepad;
     }
 }
