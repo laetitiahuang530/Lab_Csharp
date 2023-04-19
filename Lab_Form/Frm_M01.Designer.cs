@@ -32,6 +32,9 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.labelCSharp = new System.Windows.Forms.Label();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
+            this.btnPictureViewer = new System.Windows.Forms.Button();
+            this.btnPainter = new System.Windows.Forms.Button();
+            this.btnNotepad = new System.Windows.Forms.Button();
             this.btnScreenSaver = new System.Windows.Forms.Button();
             this.btnXOGame = new System.Windows.Forms.Button();
             this.btnForDoWhile = new System.Windows.Forms.Button();
@@ -43,7 +46,6 @@
             this.btnLoan = new System.Windows.Forms.Button();
             this.btnHello = new System.Windows.Forms.Button();
             this.btnPOS = new System.Windows.Forms.Button();
-            this.btnNotepad = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -70,8 +72,8 @@
             // 
             this.splitContainer1.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Size = new System.Drawing.Size(797, 618);
-            this.splitContainer1.SplitterDistance = 131;
+            this.splitContainer1.Size = new System.Drawing.Size(797, 779);
+            this.splitContainer1.SplitterDistance = 154;
             this.splitContainer1.TabIndex = 0;
             // 
             // labelCSharp
@@ -96,6 +98,8 @@
             // 
             this.splitContainer2.Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitContainer2.Panel1.BackgroundImage")));
             this.splitContainer2.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.splitContainer2.Panel1.Controls.Add(this.btnPictureViewer);
+            this.splitContainer2.Panel1.Controls.Add(this.btnPainter);
             this.splitContainer2.Panel1.Controls.Add(this.btnNotepad);
             this.splitContainer2.Panel1.Controls.Add(this.btnScreenSaver);
             this.splitContainer2.Panel1.Controls.Add(this.btnXOGame);
@@ -115,9 +119,45 @@
             this.splitContainer2.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.splitContainer2.Panel2.Cursor = System.Windows.Forms.Cursors.Default;
             this.splitContainer2.Panel2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.splitContainer2.Size = new System.Drawing.Size(797, 483);
-            this.splitContainer2.SplitterDistance = 235;
+            this.splitContainer2.Size = new System.Drawing.Size(797, 621);
+            this.splitContainer2.SplitterDistance = 223;
             this.splitContainer2.TabIndex = 3;
+            // 
+            // btnPictureViewer
+            // 
+            this.btnPictureViewer.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnPictureViewer.Location = new System.Drawing.Point(12, 494);
+            this.btnPictureViewer.Name = "btnPictureViewer";
+            this.btnPictureViewer.Size = new System.Drawing.Size(187, 31);
+            this.btnPictureViewer.TabIndex = 14;
+            this.btnPictureViewer.Text = "Picture Viewer";
+            this.btnPictureViewer.UseVisualStyleBackColor = true;
+            this.btnPictureViewer.Click += new System.EventHandler(this.btnPictureViewer_Click);
+            // 
+            // btnPainter
+            // 
+            this.btnPainter.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnPainter.Location = new System.Drawing.Point(12, 457);
+            this.btnPainter.Name = "btnPainter";
+            this.btnPainter.Size = new System.Drawing.Size(187, 31);
+            this.btnPainter.TabIndex = 13;
+            this.btnPainter.Text = "小畫家";
+            this.btnPainter.UseVisualStyleBackColor = true;
+            this.btnPainter.Click += new System.EventHandler(this.btnPainter_Click);
+            // 
+            // btnNotepad
+            // 
+            this.btnNotepad.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnNotepad.Location = new System.Drawing.Point(12, 420);
+            this.btnNotepad.Name = "btnNotepad";
+            this.btnNotepad.Size = new System.Drawing.Size(187, 31);
+            this.btnNotepad.TabIndex = 12;
+            this.btnNotepad.Text = "Notepad";
+            this.btnNotepad.UseVisualStyleBackColor = true;
+            this.btnNotepad.Click += new System.EventHandler(this.btnNotepad_Click);
             // 
             // btnScreenSaver
             // 
@@ -125,7 +165,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnScreenSaver.Location = new System.Drawing.Point(12, 383);
             this.btnScreenSaver.Name = "btnScreenSaver";
-            this.btnScreenSaver.Size = new System.Drawing.Size(199, 31);
+            this.btnScreenSaver.Size = new System.Drawing.Size(187, 31);
             this.btnScreenSaver.TabIndex = 11;
             this.btnScreenSaver.Text = "Screen Saver";
             this.btnScreenSaver.UseVisualStyleBackColor = true;
@@ -137,7 +177,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnXOGame.Location = new System.Drawing.Point(12, 346);
             this.btnXOGame.Name = "btnXOGame";
-            this.btnXOGame.Size = new System.Drawing.Size(199, 31);
+            this.btnXOGame.Size = new System.Drawing.Size(187, 31);
             this.btnXOGame.TabIndex = 10;
             this.btnXOGame.Text = "0716_XOGame";
             this.btnXOGame.UseVisualStyleBackColor = true;
@@ -149,7 +189,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnForDoWhile.Location = new System.Drawing.Point(12, 309);
             this.btnForDoWhile.Name = "btnForDoWhile";
-            this.btnForDoWhile.Size = new System.Drawing.Size(199, 31);
+            this.btnForDoWhile.Size = new System.Drawing.Size(187, 31);
             this.btnForDoWhile.TabIndex = 9;
             this.btnForDoWhile.Text = "0712_ForDoWhile";
             this.btnForDoWhile.UseVisualStyleBackColor = true;
@@ -161,7 +201,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMyCalc.Location = new System.Drawing.Point(12, 272);
             this.btnMyCalc.Name = "btnMyCalc";
-            this.btnMyCalc.Size = new System.Drawing.Size(199, 31);
+            this.btnMyCalc.Size = new System.Drawing.Size(187, 31);
             this.btnMyCalc.TabIndex = 8;
             this.btnMyCalc.Text = "0711_MyCalc";
             this.btnMyCalc.UseVisualStyleBackColor = true;
@@ -173,7 +213,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMethod.Location = new System.Drawing.Point(12, 235);
             this.btnMethod.Name = "btnMethod";
-            this.btnMethod.Size = new System.Drawing.Size(199, 31);
+            this.btnMethod.Size = new System.Drawing.Size(187, 31);
             this.btnMethod.TabIndex = 7;
             this.btnMethod.Text = "0711_Method";
             this.btnMethod.UseVisualStyleBackColor = true;
@@ -185,7 +225,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnStudentsGradeList.Location = new System.Drawing.Point(12, 198);
             this.btnStudentsGradeList.Name = "btnStudentsGradeList";
-            this.btnStudentsGradeList.Size = new System.Drawing.Size(199, 31);
+            this.btnStudentsGradeList.Size = new System.Drawing.Size(187, 31);
             this.btnStudentsGradeList.TabIndex = 6;
             this.btnStudentsGradeList.Text = "0710_StudentsGrade_List";
             this.btnStudentsGradeList.UseVisualStyleBackColor = true;
@@ -197,7 +237,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnStudentsGrade.Location = new System.Drawing.Point(12, 161);
             this.btnStudentsGrade.Name = "btnStudentsGrade";
-            this.btnStudentsGrade.Size = new System.Drawing.Size(199, 31);
+            this.btnStudentsGrade.Size = new System.Drawing.Size(187, 31);
             this.btnStudentsGrade.TabIndex = 5;
             this.btnStudentsGrade.Text = "0708_StudentsGrade";
             this.btnStudentsGrade.UseVisualStyleBackColor = true;
@@ -209,7 +249,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnStudentStructForm.Location = new System.Drawing.Point(12, 124);
             this.btnStudentStructForm.Name = "btnStudentStructForm";
-            this.btnStudentStructForm.Size = new System.Drawing.Size(199, 31);
+            this.btnStudentStructForm.Size = new System.Drawing.Size(187, 31);
             this.btnStudentStructForm.TabIndex = 4;
             this.btnStudentStructForm.Text = "0708_Student_StructForm";
             this.btnStudentStructForm.UseVisualStyleBackColor = true;
@@ -221,7 +261,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnLoan.Location = new System.Drawing.Point(12, 51);
             this.btnLoan.Name = "btnLoan";
-            this.btnLoan.Size = new System.Drawing.Size(199, 30);
+            this.btnLoan.Size = new System.Drawing.Size(187, 30);
             this.btnLoan.TabIndex = 2;
             this.btnLoan.Text = "0704_Loan";
             this.btnLoan.UseVisualStyleBackColor = true;
@@ -233,7 +273,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnHello.Location = new System.Drawing.Point(12, 15);
             this.btnHello.Name = "btnHello";
-            this.btnHello.Size = new System.Drawing.Size(199, 30);
+            this.btnHello.Size = new System.Drawing.Size(187, 30);
             this.btnHello.TabIndex = 1;
             this.btnHello.Text = "0703_Hello";
             this.btnHello.UseVisualStyleBackColor = true;
@@ -245,30 +285,18 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnPOS.Location = new System.Drawing.Point(12, 87);
             this.btnPOS.Name = "btnPOS";
-            this.btnPOS.Size = new System.Drawing.Size(199, 31);
+            this.btnPOS.Size = new System.Drawing.Size(187, 31);
             this.btnPOS.TabIndex = 3;
             this.btnPOS.Text = "0705_POS";
             this.btnPOS.UseVisualStyleBackColor = true;
             this.btnPOS.Click += new System.EventHandler(this.btnPOS_Click);
-            // 
-            // btnNotepad
-            // 
-            this.btnNotepad.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnNotepad.Location = new System.Drawing.Point(12, 420);
-            this.btnNotepad.Name = "btnNotepad";
-            this.btnNotepad.Size = new System.Drawing.Size(199, 31);
-            this.btnNotepad.TabIndex = 12;
-            this.btnNotepad.Text = "Notepad";
-            this.btnNotepad.UseVisualStyleBackColor = true;
-            this.btnNotepad.Click += new System.EventHandler(this.btnNotepad_Click);
             // 
             // Frm_M01
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(797, 618);
+            this.ClientSize = new System.Drawing.Size(797, 779);
             this.Controls.Add(this.splitContainer1);
             this.Name = "Frm_M01";
             this.Text = "HomePage";
@@ -301,5 +329,7 @@
         private System.Windows.Forms.Button btnXOGame;
         private System.Windows.Forms.Button btnScreenSaver;
         private System.Windows.Forms.Button btnNotepad;
+        private System.Windows.Forms.Button btnPainter;
+        private System.Windows.Forms.Button btnPictureViewer;
     }
 }

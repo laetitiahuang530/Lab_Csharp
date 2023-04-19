@@ -125,8 +125,32 @@ namespace Lab_Form
 
         private void btnNotepad_Click(object sender, EventArgs e)
         {
+            splitContainer2.Panel2.Controls.Clear();
             Frm_M12_Notepad frm_Notepad = new Frm_M12_Notepad();
+            frm_Notepad.TopLevel = false;
+            frm_Notepad.Dock = DockStyle.None;
+            splitContainer2.Panel2.Controls.Add(frm_Notepad);
             frm_Notepad.Show();
+        }
+
+        private void btnPainter_Click(object sender, EventArgs e)
+        {
+            splitContainer2.Panel2.Controls.Clear();
+            Frm_M13_Painter frm_Painter = new Frm_M13_Painter();
+            frm_Painter.TopLevel = false;
+            frm_Painter.Dock = DockStyle.None;
+            splitContainer2.Panel2.Controls.Add(frm_Painter);
+            frm_Painter.Show();
+        }
+
+        private void btnPictureViewer_Click(object sender, EventArgs e)
+        {
+            splitContainer2.Panel2.Controls.Clear();
+            Frm_M14_Picture_Viewer frm_PicViewer = new Frm_M14_Picture_Viewer();
+            frm_PicViewer.TopLevel = false;
+            frm_PicViewer.Dock = DockStyle.None;
+            splitContainer2.Panel2.Controls.Add(frm_PicViewer);
+            frm_PicViewer.Show();
         }
     }
 }
