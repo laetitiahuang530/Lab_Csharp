@@ -76,6 +76,12 @@
     <Compile Include="Frm_24.Designer.cs">
       <DependentUpon>Frm_24.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_M07_1_StudentsGradeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_M07_1_StudentsGradeList.Designer.cs">
+      <DependentUpon>Frm_M07_1_StudentsGradeList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_M08_Method.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -202,6 +208,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_24.resx">
       <DependentUpon>Frm_24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_M07_1_StudentsGradeList.resx">
+      <DependentUpon>Frm_M07_1_StudentsGradeList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_M08_Method.resx">
       <DependentUpon>Frm_M08_Method.cs</DependentUpon>

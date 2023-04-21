@@ -69,7 +69,7 @@ namespace Lab_Form
         private void btnStudentsGradeList_Click(object sender, EventArgs e)
         {
             splitContainer2.Panel2.Controls.Clear();
-            Frm_M07_StudentsGrade frm_studentGradeList = new Frm_M07_StudentsGrade();
+            Frm_M07_1_StudentsGradeList frm_studentGradeList = new Frm_M07_1_StudentsGradeList();
             frm_studentGradeList.TopLevel = false;
             frm_studentGradeList.Dock = DockStyle.None;
             splitContainer2.Panel2.Controls.Add(frm_studentGradeList);

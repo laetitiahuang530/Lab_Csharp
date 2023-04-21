@@ -70,8 +70,12 @@ namespace Lab_Form
             whiskey = 0;
             wine = 0;
             total = 0;
+            beerCnt = 0;
+            tequilaCnt = 0;
+            whiskeyCnt = 0;
+            wineCnt = 0;
             txtTotalPrice.Text = "NT$ " + total.ToString();
-            txtListshow();
+            txtList.Text = "尚未點餐";
         }
 
         private void txtListshow()

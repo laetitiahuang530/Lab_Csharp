@@ -321,9 +321,9 @@ namespace Lab_Form
         {
             labResult2.Text = "樂透號碼\n";
             Random r = new Random(Guid.NewGuid().GetHashCode());
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 6; i++)
             {
-                int randomNumber = r.Next(0, 100);
+                int randomNumber = r.Next(1, 50);
                 labResult2.Text += " " + randomNumber.ToString();
             }
         }

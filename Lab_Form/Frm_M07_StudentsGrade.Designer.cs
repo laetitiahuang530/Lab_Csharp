@@ -182,6 +182,7 @@
             // 
             // listView1
             // 
+            this.listView1.BackColor = System.Drawing.SystemColors.Control;
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2,
@@ -191,6 +192,7 @@
             this.columnHeader6,
             this.columnHeader7,
             this.columnHeader8});
+            this.listView1.ForeColor = System.Drawing.SystemColors.Control;
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(197, 22);
             this.listView1.Name = "listView1";
@@ -235,6 +237,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
             this.textBox1.Location = new System.Drawing.Point(198, 292);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
